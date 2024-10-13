@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WorkOut App</string>
+    <string name="hello_rehan">Hello Android Developer!</string>
+    <string name="confirm">Confirm</string>
+    <string name="enter_your_name">Enter name</string>
+    <string name="are_you_agree_that_we_share_your_data">Are you agree that we share your data</string>
 </resources>
