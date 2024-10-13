@@ -1,5 +1,6 @@
 package com.example.workoutapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -14,7 +15,8 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
         findViewById<Button>(R.id.Click_button).setOnClickListener {
-            Toast.makeText(this, "Is your name ${findViewById<TextView>(R.id.name).text}", Toast.LENGTH_LONG).show()
+            val intent = Intent(this, MainActivity2::class.java)
+            startActivity(intent)
         }
 
 
