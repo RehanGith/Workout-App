@@ -6,4 +6,7 @@
     <string name="are_you_agree_that_we_share_your_data">Are you agree that we share your data</string>
     <string name="you_just_clicked_me">You just Clicked me</string>
     <string name="muhammad_rehan">Muhammad Rehan</string>
+    <string name="textview">TextView</string>
+    <string name="description">Description</string>
+    <string name="name">Name</string>
 </resources>
