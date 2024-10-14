@@ -26,8 +26,18 @@ class MainActivity3 : AppCompatActivity() {
 
     }
     fun AdapterInit() {
-        adapter = MyRecyclerViewAdapter()
+        adapter = MyRecyclerViewAdapter(getList())
         view.adapter = adapter
+
+    }
+    fun getList() : ArrayList<ListViewModel> {
+        var items =  ArrayList<ListViewModel>()
+        items.add(ListViewModel("Title 1" , "Description 1"))
+        items.add(ListViewModel("Title 2" , "Description 2"))
+        items.add(ListViewModel("Title 3" , "Description 3"))
+        items.add(ListViewModel("Title 4" , "Description 4"))
+        return items
+
 
     }
 }
