@@ -6,6 +6,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity3 : AppCompatActivity() {
@@ -22,6 +23,7 @@ class MainActivity3 : AppCompatActivity() {
             insets
         }
         view = findViewById<RecyclerView>(R.id.RecyclerView)
+        view.layoutManager = GridLayoutManager(this, 2)
         AdapterInit()
 
     }
